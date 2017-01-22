@@ -27,15 +27,19 @@ plt.ylabel("grade")
 plt.show()
 ################################################################################
 
+from sklearn.ensemble import RandomForestClassifier
+from sklearn import svm
+from sklearn.metrics import accuracy_score
 
-### your code here!  name your classifier object clf if you want the 
-### visualization code (prettyPicture) to show you the decision boundary
+### clf = RandomForestClassifier(n_estimators=100)
+### clf.fit(features_train,labels_train)
 
+clf = svm.SVC(kernel='rbf', C=200000.0)
+clf.fit(features_train,labels_train)
 
-
-
-
-
+pred = clf.predict(features_test)
+acc = accuracy_score(pred,labels_test)
+print acc
 
 
 try:
