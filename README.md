@@ -3,9 +3,9 @@ Intro to Machine Learning (UD 120)
 
 Starter project code for students taking [Udacity 120 - Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 
-### Great Notebook-Style Lecture Notes by [Jonathan Napitupulu](https://github.com/napjon
+### Notebook-Style Lecture Notes by [Jonathan Napitupulu](https://github.com/napjon)
 
-Warning: Code is not always correct and/ or the best)###- [Naive Bayes](http://napitupulu-jon.appspot.com/posts/naive-bayes.html)
+- [Naive Bayes](http://napitupulu-jon.appspot.com/posts/naive-bayes.html)
 - [Support Vector Machines](http://napitupulu-jon.appspot.com/galleries/svm-ud.html)
 - [Decision Trees](http://napitupulu-jon.appspot.com/posts/decision-tree-ud.html)
 - [Choose your own Algo](http://napitupulu-jon.appspot.com/posts/random-forest-classifier-ud.html)
